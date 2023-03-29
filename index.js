@@ -33,15 +33,17 @@ app.use(cors({
 }))
 
 app.use(express.json())
+app.use(express.static(path.join(__dirname, "build")))
 app.use(express.static(path.join(__dirname, "public")))
+
 // app.use(express.static("public")) 👆 exactly same
 
-app.use("/user", require("./routes/userRoutes"))
-app.use("/employee", adminProtected, require("./routes/employeeRoutes"))
-app.use("/auth", require("./routes/authRoute"))
-app.use("/cart", require("./routes/cartRoutes"))
-app.use("/order", require("./routes/orderRoutes"))
-app.use("/products", require("./routes/productRoutes"))
+app.use("/api/user", require("./routes/userRoutes"))
+app.use("/api/employee", adminProtected, require("./routes/employeeRoutes"))
+app.use("/api/auth", require("./routes/authRoute"))
+app.use("/api/cart", require("./routes/cartRoutes"))
+app.use("/api/order", require("./routes/orderRoutes"))
+app.use("/api/products", require("./routes/productRoutes"))
 
 
 app.use("*", (req, res) => {
