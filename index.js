@@ -48,9 +48,11 @@ app.use("/api/products", require("./routes/productRoutes"))
 
 
 app.use("*", (req, res) => {
-    res.status(404).json({
-        message: "404:you are looking for resource is not available"
-    })
+    res.sendFile(path.join(__dirname, "build/index.html"))
+
+    // res.status(404).json({
+    //     message: "404:you are looking for resource is not available"
+    // })
 })
 
 app.use(errorHandler)   //tikde try catch nhiye mhnun ha run karel ithe error print hoil

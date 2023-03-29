@@ -1,3 +1,17 @@
+29-03-2023 	 15:54:10	DELETE	/api/products/destroy	undefined
+29-03-2023 	 15:53:58	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:57	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:57	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:53	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:52	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:52	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:51	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:34	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:33	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:28	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:27	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:10	DELETE	/products/destroy	undefined
+29-03-2023 	 15:53:03	DELETE	/products/destroy	undefined
 24-03-2023 	 16:17:06	GET	/user/profile	http://localhost:3000
 24-03-2023 	 16:17:06	GET	/user/profile	http://localhost:3000
 24-03-2023 	 16:17:06	OPTIONS	/user/profile	http://localhost:3000
