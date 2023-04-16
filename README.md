@@ -1,0 +1,6 @@
+My e-commerce project is a web application that allows users to buy products online. It has a login and logout authentication system where users can register, login, and logout securely. There are two types of users: admin and regular users.As an admin, you can add, update, and delete products, manage inventory, and perform CRUD (Create, Read, Update, Delete) operations on products. The admin interface is accessible only to authenticated admin users.Regular users can browse products, add products to their cart, and place orders. They can view their order history and manage their profile information. The user interface is designed with Material-UI (MUI) components for a modern and responsive user experience.The project is built using MERN stack, which includes MongoDB as the database for storing product information, Node.js for server-side logic, and React for building the user interface. I have also integrated a payment gateway using Razorpay to allow users to make secure online payments for their orders.Overall, my e-commerce project demonstrates my skills in HTML, JavaScript, MUI, Node.js, MongoDB, and integration of a payment gateway. It showcases my ability to implement user authentication, perform CRUD operations, and create a responsive and user-friendly web application for online shopping.
+
+
+
+
+
